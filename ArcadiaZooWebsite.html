@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo d'Arcadia</title>
+    <link rel="stylesheet" href="ArcadiaZooWebsite.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue au Zoo d'Arcadia</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="services.html">Services</a>
+        <a href="habitats.html">Habitats</a>
+        <a href="login.html">Connexion</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>Présentation du Zoo</h2>
+            <p>Bienvenue au Zoo de José, un endroit magique où vous pouvez découvrir une variété incroyable d'animaux et d'habitats.</p>
+            <img src="zoo_image.png" alt="Image du zoo">
+        </section>
+
+        <section>
+            <h2>Habitats</h2>
+            <div class="habitat">
+                <h3>La Savane</h3>
+                <img src="savane.jpg" alt="Image de la savane">
+                <p>Découvrez les lions, girafes, et éléphants dans un environnement recréant leur habitat naturel.</p>
+            </div>
+            <!-- Ajouter d'autres habitats ici -->
+        </section>
+
+        <section>
+            <h2>Services</h2>
+            <div class="service">
+                <h3>Restauration</h3>
+                <p>Profitez de notre service de restauration avec une variété de plats pour toute la famille.</p>
+            </div>
+            <div class="service">
+                <h3>Visite guidée</h3>
+                <p>Visitez les habitats avec un guide gratuitement.</p>
+            </div>
+            <div class="service">
+                <h3>Petit train</h3>
+                <p>Découvrez le zoo en petit train pour une expérience unique.</p>
+            </div>
+            <!-- Ajouter d'autres services ici -->
+        </section>
+
+        <section>
+            <h2>Avis</h2>
+            <div class="avis">
+                <p><strong>pseudo1 :</strong> Magnifique zoo avec beaucoup à voir!</p>
+            </div>
+            <!-- Ajouter d'autres avis ici -->
+            <form action="submit_avis_ArcadiaZooWebsite.html" method="post">
+                <label for="pseudo">Pseudo:</label>
+                <input type="text" id="pseudo" name="pseudo" required>
+                <label for="avis">Avis:</label>
+                <textarea id="avis" name="avis" required></textarea>
+                <button type="submit">Soumettre</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Zoo de José. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
