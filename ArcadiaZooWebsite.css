@@ -27,13 +27,14 @@
         }
         .container {
             padding: 20px;
+            text-align: center;
         }
         .habitat, .animal, .avis {
             border: 1px solid #ccc;
             padding: 10px;
             margin: 10px 0;
             background-color: #1e6630;
-            color: white;
+            color: rgb(216, 123, 17);
             text-align: center;
             padding: 1em 0;
         }
@@ -44,7 +45,14 @@
         .habitat img, .animal img {
             max-width: 100%;
         }
-        .avis {
-            background-color: #f9f9f9;
-        }
-    
+      .annotation {
+        font-size: 8pt;
+      }
+
+      h2 {
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        
+
+      }
