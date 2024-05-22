@@ -1,10 +1,11 @@
         body {
             font-family: Arial, sans-serif;
+            background-color: navajowhite;
             margin: 0;
             padding: 0;
         }
         header, footer {
-            background-color: #4CAF50;
+            background-color: #2b812e;
             color: white;
             text-align: center;
             padding: 1em 0;
@@ -27,11 +28,19 @@
         .container {
             padding: 20px;
         }
-        .habitat, .service, .animal, .avis {
+        .habitat, .animal, .avis {
             border: 1px solid #ccc;
             padding: 10px;
             margin: 10px 0;
+            background-color: #1e6630;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
         }
+        .service {
+            text-align: center;
+        }
+
         .habitat img, .animal img {
             max-width: 100%;
         }
